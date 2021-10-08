@@ -28,9 +28,8 @@ paginate     = 10
   defaultTheme = "dark"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+  tag      = "tags"
+  category = "categories"
 
 [languages]
   [languages.en]
@@ -67,4 +66,9 @@ paginate     = 10
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/selanthiraiyan"
+    weight = 40
+    
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/396415/selanthiraiyan"
     weight = 40
